@@ -1,0 +1,19 @@
+{
+  "name": "js-design-paterns",
+  "version": "0.0.1",
+  "description": "Examples of Design Paterns written in JS as an learning excersise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BennettPhil/js-design-paterns.git"
+  },
+  "author": "Phil Bennett <me@phil.is>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BennettPhil/js-design-paterns/issues"
+  },
+  "homepage": "https://github.com/BennettPhil/js-design-paterns#readme"
+}
