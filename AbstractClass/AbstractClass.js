@@ -1,5 +1,6 @@
-var ConcretClass = require('./Classes/ConcretClass.js');
+const ConcretClass = require('./Classes/ConcretClass.js');
 
-obj = new ConcretClass();
+const obj = new ConcretClass();
 
+/* eslint-disable no-console */
 console.log(obj.returnSomething());

@@ -1,7 +1,7 @@
-var AbstractClass = require('./AbstractClass.js');
+const AbstractClass = require('./AbstractClass.js');
 
 module.exports = class ConcretClass extends AbstractClass {
-    returnSomething() {
-      return 'Something';
-    }
-}
+  returnSomething() {
+    return this.something;
+  }
+};

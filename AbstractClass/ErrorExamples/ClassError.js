@@ -1,3 +1,5 @@
-var AbstractClass = require('../Classes/AbstractClass.js');
+const AbstractClass = require('../Classes/AbstractClass.js');
 
-obj = new AbstractClass();
+const obj = new AbstractClass();
+
+obj.returnSomething();
