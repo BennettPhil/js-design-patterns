@@ -1,4 +1,4 @@
-const Interface = require('./Interface.js');
+const Interface = require('../../Common/Classes/Interface.js');
 
 class BuilderInterface extends Interface {
   constructor() {
