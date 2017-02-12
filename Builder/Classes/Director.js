@@ -1,10 +1,10 @@
 module.exports = class Director {
-  build($builder) {
-    $builder.createHero();
-    $builder.addBackgroundImage();
-    $builder.addHeader();
-    $builder.addButton();
+  build(builder) {
+    builder.createHero();
+    builder.addBackgroundImage('http://images.com/image.jpg');
+    builder.addHeader(2, 'Some Text');
+    builder.addButton('http://link.com', 'Button Text');
 
-    return $builder.getHero();
+    return builder.getHero();
   }
 };

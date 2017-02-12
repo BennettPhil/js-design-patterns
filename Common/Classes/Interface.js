@@ -2,6 +2,9 @@ class Interface {
   constructor(interfaceDefition) {
     const errors = new Set();
 
+    if (this.constructor === Interface) {
+      throw new TypeError('Interfaces cannot be instantiated directly');
+    }
     // Check For Definition
     if (!interfaceDefition) {
       errors.add('Your interface has no definition');

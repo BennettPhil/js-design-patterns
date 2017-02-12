@@ -2,10 +2,10 @@ const BootstrapBuilder = require('./Classes/BootstrapBuilder.js');
 
 const Bootstrap = new BootstrapBuilder();
 
-/*const Director = require('./Classes/Director.js');
+const Director = require('./Classes/Director.js');
 
-const Builder = require('./Classes/Builder.js');
+const HeroDirector = new Director();
 
-const HeroDirector = new Director(new Builder());
+/* eslint-disable no-console */
+console.log(HeroDirector.build(Bootstrap));
 
-console.log(HeroDirector.build());*/
