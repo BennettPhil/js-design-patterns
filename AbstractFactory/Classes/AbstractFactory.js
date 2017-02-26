@@ -1,4 +1,4 @@
-module.exports = class AbstractFactory {
+class AbstractFactory {
   constructor() {
     this.errorMessage = 'Abstract class AbstractFactory cannot be instantiated directly';
     if (this.constructor === AbstractFactory) {
@@ -12,3 +12,5 @@ module.exports = class AbstractFactory {
   }
 
 };
+
+module.exports = AbstractFactory;

@@ -1,4 +1,4 @@
-module.exports = class AbstractButton {
+class AbstractButton {
 
   constructor(cssClass, content) {
     this.cssClass = cssClass;
@@ -16,3 +16,5 @@ module.exports = class AbstractButton {
   }
 
 };
+
+module.exports = AbstractButton;

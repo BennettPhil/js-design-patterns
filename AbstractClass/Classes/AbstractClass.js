@@ -1,4 +1,4 @@
-module.exports = class AbstractClass {
+class AbstractClass {
   constructor() {
     this.something = 'Something';
     this.errorMessage = 'Abstract class AbstractClass  cannot be instantiated directly';
@@ -18,3 +18,5 @@ module.exports = class AbstractClass {
   }
 
 };
+
+module.exports = AbstractClass;

@@ -1,4 +1,4 @@
-module.exports = class Director {
+class Director {
   build(builder) {
     builder.createHero();
     builder.addBackgroundImage('http://images.com/image.jpg');
@@ -8,3 +8,5 @@ module.exports = class Director {
     return builder.getHero();
   }
 };
+
+module.exports = Director;
