@@ -9,4 +9,4 @@ class Director {
   }
 }
 
-module.exports = Director;
+module.exports = new Director;

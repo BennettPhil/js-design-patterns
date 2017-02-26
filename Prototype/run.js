@@ -1,4 +1,4 @@
-const FoundationButtonPrototype = require('./Classes/FoundationButtonPrototype');
+const FoundationButtonPrototype = require('./FoundationButtonPrototype.js');
 
 let startTime = Date.now();
 

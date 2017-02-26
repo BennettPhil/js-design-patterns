@@ -1,7 +1,9 @@
-const SimpleFactory = require('./Classes/SimpleFactory.js');
+const Button = require('./Button.js');
 
-const factory = new SimpleFactory();
-const button = factory.createButton();
+class SimpleFactory {
+  createButton() {
+    return new Button();
+  }
+}
 
-/* eslint-disable no-console */
-console.log(button.click());
+module.exports = new SimpleFactory;

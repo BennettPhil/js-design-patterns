@@ -8,4 +8,4 @@ class FoundationFactory extends AbstractFactory {
   }
 }
 
-module.exports = FoundationFactory;
+module.exports = new FoundationFactory();

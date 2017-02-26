@@ -30,4 +30,4 @@ class BootstrapBuilder extends BuilderInterface {
   }
 }
 
-module.exports = BootstrapBuilder;
+module.exports = new BootstrapBuilder;

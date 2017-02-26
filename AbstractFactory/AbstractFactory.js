@@ -1,15 +1,15 @@
-const BootstrapFactory = require('./Classes/BootstrapFactory.js');
+class AbstractFactory {
+  constructor() {
+    this.errorMessage = 'Abstract class AbstractFactory cannot be instantiated directly';
+    if (this.constructor === AbstractFactory) {
+      throw new TypeError(this.errorMessage);
+    }
+  }
 
-const FoundationFactory = require('./Classes/FoundationFactory.js');
+  createButton() {
+    this.errorMessage = 'Abtract Method createButton() cannot be called';
+    throw new TypeError(this.errorMessage);
+  }
+}
 
-const Bootstrap = new BootstrapFactory();
-const Button = Bootstrap.createButton('btn-sm', 'click me');
-
-/* eslint-disable no-console */
-console.log(Button.display());
-
-const Foundation = new FoundationFactory();
-const OtherButton = Foundation.createButton('small', 'click me');
-
-/* eslint-disable no-console */
-console.log(OtherButton.display());
+module.exports = AbstractFactory;

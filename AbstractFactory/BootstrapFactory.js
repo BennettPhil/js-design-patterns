@@ -8,4 +8,4 @@ class BootstrapFactory extends AbstractFactory {
   }
 }
 
-module.exports = BootstrapFactory;
+module.exports = new BootstrapFactory;

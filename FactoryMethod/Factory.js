@@ -14,4 +14,4 @@ class Factory {
   }
 }
 
-module.exports = Factory;
+module.exports = new Factory;
