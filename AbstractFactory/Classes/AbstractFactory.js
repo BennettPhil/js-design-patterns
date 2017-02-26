@@ -10,7 +10,6 @@ class AbstractFactory {
     this.errorMessage = 'Abtract Method createButton() cannot be called';
     throw new TypeError(this.errorMessage);
   }
-
 }
 
 module.exports = AbstractFactory;
