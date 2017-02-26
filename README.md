@@ -5,7 +5,7 @@ Trying to learn more javascript I'm stepping through the design patterns from th
 
 - [x] [Abstract factory](https://github.com/BennettPhil/js-design-patterns/tree/master/AbstractFactory) 
 - [x] [Builder](https://github.com/BennettPhil/js-design-patterns/tree/master/Builder)
-- [ ] Factory method
+- [x] [Factory method](https://github.com/BennettPhil/js-design-patterns/tree/master/FactoryMethod)
 - [ ] Prototype 
 - [ ] Singleton 
 
