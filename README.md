@@ -32,4 +32,7 @@ Trying to learn more javascript I'm stepping through the design patterns from th
 
 ## Additional
 
-In order to create the above I’ve also had to work out the concept of an [Interface](https://github.com/BennettPhil/js-design-patterns/blob/master/Common/Classes/Interface.js) and an [Abstract Class](https://github.com/BennettPhil/js-design-patterns/tree/master/AbstractClass) in Javascript
+In order to create the above I’ve also had to work out the concept of 
+* [Interface](https://github.com/BennettPhil/js-design-patterns/blob/master/Common/Classes/Interface.js) 
+* [Abstract Class](https://github.com/BennettPhil/js-design-patterns/tree/master/AbstractClass)
+* [Simple Factor](https://github.com/BennettPhil/js-design-patterns/tree/master/SimpleFactory)
