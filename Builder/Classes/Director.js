@@ -7,6 +7,6 @@ class Director {
 
     return builder.getHero();
   }
-};
+}
 
 module.exports = Director;

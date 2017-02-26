@@ -6,6 +6,6 @@ class BootstrapFactory extends AbstractFactory {
   createButton(cssClass, content) {
     return new BootstrapButton(cssClass, content);
   }
-};
+}
 
 module.exports = BootstrapFactory;

@@ -15,6 +15,6 @@ class AbstractButton {
     throw new TypeError(this.errorMessage);
   }
 
-};
+}
 
 module.exports = AbstractButton;

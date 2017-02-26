@@ -17,6 +17,6 @@ class AbstractClass {
     throw new TypeError(this.errorMessage);
   }
 
-};
+}
 
 module.exports = AbstractClass;

@@ -11,6 +11,6 @@ class AbstractFactory {
     throw new TypeError(this.errorMessage);
   }
 
-};
+}
 
 module.exports = AbstractFactory;
