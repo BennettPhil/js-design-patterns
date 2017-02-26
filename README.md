@@ -7,7 +7,7 @@ Trying to learn more javascript I'm stepping through the design patterns from th
 - [x] [Builder](https://github.com/BennettPhil/js-design-patterns/tree/master/Builder)
 - [x] [Factory method](https://github.com/BennettPhil/js-design-patterns/tree/master/FactoryMethod)
 - [x] [Prototype](https://github.com/BennettPhil/js-design-patterns/tree/master/Prototype) 
-- [ ] Singleton 
+- [x] [Singleton](https://github.com/BennettPhil/js-design-patterns/tree/master/Singleton)
 
 ## Structural
 - [ ] Adapter
