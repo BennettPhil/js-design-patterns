@@ -1,6 +1,8 @@
 # Design Patterns in Javascript
 Trying to learn more javascript I'm stepping through the design patterns from the [design patterns book.](https://en.wikipedia.org/wiki/Design_Patterns)
 
+All examples are written in ECMAScript 6. 
+
 ## Creational
 - [x] [Abstract factory](https://github.com/BennettPhil/js-design-patterns/tree/master/AbstractFactory) 
 - [x] [Builder](https://github.com/BennettPhil/js-design-patterns/tree/master/Builder)
